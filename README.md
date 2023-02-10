@@ -37,13 +37,18 @@ asdf install kubecolor latest
 
 # Set a version globally (on your ~/.tool-versions file)
 asdf global kubecolor latest
-
-# Now create an alias
-alias kubectl=kubecolor
 ```
 
 Check [asdf](https://github.com/asdf-vm/asdf) readme for more instructions on how to
 install & manage versions.
+
+If you want to use it as a wrapper for `kubectl` don't forget to set an alias!
+
+```
+alias kubectl=kubecolor
+```
+
+Add it to your `.zshrc`, `.bashrc` or config of your shell of choice.
 
 # Contributing
 
